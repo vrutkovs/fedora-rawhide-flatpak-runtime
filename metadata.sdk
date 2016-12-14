@@ -1,7 +1,7 @@
 [Runtime]
-name=org.vrutkovs.FedoraSdk/x86_64/24
-runtime=org.vrutkovs.FedoraRuntime/x86_64/24
-sdk=org.vrutkovs.FedoraSdk/x86_64/24
+name=org.vrutkovs.FedoraSdk/x86_64/rawhide
+runtime=org.vrutkovs.FedoraRuntime/x86_64/rawhide
+sdk=org.vrutkovs.FedoraSdk/x86_64/rawhide
 
 [Environment]
 LD_LIBRARY_PATH=/app/lib64

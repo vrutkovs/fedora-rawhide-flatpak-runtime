@@ -1,24 +1,10 @@
-[fedora-base]
-name=Fedora 24 - x86_64
+[fedora-rawhide]
+name=Fedora rawhide - x86_64
 failovermethod=priority
-#baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/24/Everything/x86_64/os/
-metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-24&arch=x86_64
+#baseurl=http://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/x86_64/os/
+metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-rawhide&arch=x86_64
 enabled=1
 metadata_expire=7d
-gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-24-x86_64
+gpgcheck=0
 skip_if_unavailable=False
 priority=1
-
-[fedora-updates]
-name=Fedora 24 - x86_64 - Updates
-failovermethod=priority
-#baseurl=http://mirror.onet.pl/pub/mirrors/fedora/linux/updates/24/x86_64/
-metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f24&arch=x86_64
-enabled=1
-gpgcheck=1
-metadata_expire=6h
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-24-x86_64
-skip_if_unavailable=False
-
-

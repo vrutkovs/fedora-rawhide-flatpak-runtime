@@ -1,5 +1,5 @@
 {
-    "ref": "base/org.vrutkovs.FedoraSdk/x86_64/24",
+    "ref": "base/org.vrutkovs.FedoraSdk/x86_64/rawhide",
     "include": "flatpak-runtime.json",
     "packages": [
         "valgrind",

@@ -4,7 +4,7 @@ clean:
 	rm -rf repo exportrepo .commit-*
 
 PROXY=
-VERSION=24
+VERSION=rawhide
 ARCH=x86_64
 
 repo/config:

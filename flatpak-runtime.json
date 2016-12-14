@@ -1,7 +1,7 @@
 {
-    "ref": "base/org.vrutkovs.FedoraRuntime/x86_64/24",
+    "ref": "base/org.vrutkovs.FedoraRuntime/x86_64/rawhide",
 
-    "repos": ["fedora-base", "fedora-updates"],
+    "repos": ["fedora-rawhide"],
 
     "selinux": false,
 

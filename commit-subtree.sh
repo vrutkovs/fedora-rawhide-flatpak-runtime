@@ -17,5 +17,5 @@ while (( "$#" )); do
     ostree checkout --repo=repo --subpath=$1 -U $SRC_COMMIT $DIR/$2
     shift 2
 done
-ostree commit --repo=repo --no-xattrs --owner-uid=0 --owner-gid=0 --link-checkout-speedup -s "Commit" --branch $DST_COMMIT $DIR
-rm -rf $DIR
+sudo ostree commit --repo=repo --no-xattrs --owner-uid=0 --owner-gid=0 --link-checkout-speedup -s "Commit" --branch $DST_COMMIT $DIR
+sudo rm -rf $DIR
