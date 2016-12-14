@@ -40,6 +40,20 @@
         "mesa-libGL-devel",
         "mesa-libGLU-devel",
         "glew-devel",
-        "pulseaudio-libs-devel"
+        "pulseaudio-libs-devel",
+        /* gnome */,
+        "gtk3-devel",
+        "gobject-introspection-devel",
+        "libcanberra-devel",
+        "gnome-desktop3-devel",
+        "vala",
+        "desktop-file-utils",
+        "glib2-devel",
+        "itstool",
+        "geoclue2-devel",
+        "geocode-glib-devel",
+        "gettext",
+        "gsound-devel",
+        "libappstream-glib",
     ]
 }
