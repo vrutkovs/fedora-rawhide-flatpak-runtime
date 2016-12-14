@@ -1,7 +1,7 @@
 [Runtime]
-name=org.flatpak.Runtime/x86_64/1
-runtime=org.flatpak.Runtime/x86_64/1
-sdk=org.flatpak.Sdk/x86_64/1
+name=org.vrutkovs.FedoraRuntime/x86_64/24
+runtime=org.vrutkovs.FedoraRuntime/x86_64/24
+sdk=org.vrutkovs.FedoraSdk/x86_64/24
 
 [Environment]
 LD_LIBRARY_PATH=/app/lib64

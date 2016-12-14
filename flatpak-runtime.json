@@ -1,7 +1,7 @@
 {
-    "ref": "base/org.flatpak.Runtime/x86_64/1",
+    "ref": "base/org.vrutkovs.FedoraRuntime/x86_64/24",
 
-    "repos": ["centos-base", "centos-updates"],
+    "repos": ["fedora-base", "fedora-updates"],
 
     "selinux": false,
 
@@ -22,7 +22,7 @@
 
     "packages": [
         /* base system */
-        "centos-release",
+        "fedora-release",
         "basesystem",
         "glibc",
         "bash",

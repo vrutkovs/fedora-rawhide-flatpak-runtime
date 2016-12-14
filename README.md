@@ -1,3 +1,3 @@
 # flatpak-runtime
 
-A Centos-based runtime for [Flatpak](http://www.flatpak.org).
+A Fedora-based runtime for [Flatpak](http://www.flatpak.org).

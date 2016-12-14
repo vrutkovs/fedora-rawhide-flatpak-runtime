@@ -1,5 +1,5 @@
 {
-    "ref": "base/org.flatpak.Sdk/x86_64/1",
+    "ref": "base/org.vrutkovs.FedoraSdk/x86_64/24",
     "include": "flatpak-runtime.json",
     "packages": [
         "valgrind",
