@@ -83,6 +83,7 @@
         "gmp-devel",
         "adwaita-icon-theme",
         "adwaita-cursor-theme",
+        "enchant-devel",
         "gstreamer1-devel",
         "gstreamer1-plugins-base-devel",
         "gstreamer1-plugins-bad-free-devel"
