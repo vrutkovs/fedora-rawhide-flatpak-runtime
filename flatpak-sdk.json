@@ -82,6 +82,9 @@
         "libdb-devel",
         "gmp-devel",
         "adwaita-icon-theme",
-        "adwaita-cursor-theme"
+        "adwaita-cursor-theme",
+        "gstreamer1-devel",
+        "gstreamer1-plugins-base-devel",
+        "gstreamer1-plugins-bad-free-devel"
     ]
 }
