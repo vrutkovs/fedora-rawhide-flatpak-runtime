@@ -1,7 +1,7 @@
 [Flatpak Repo]
 Title=Fedora Runtime (built by vrutkovs)
 Url=https://vrutkovs.fedorapeople.org/flatpak/fedora/
-Homepage=http://fedoraproject.org/
+Homepage=https://github.com/vrutkovs/fedora-rawhide-flatpak-runtime
 Comment=This is a Workstation runtime built 
 Description=GNOME runtimes are released with each major release and contain the main GNOME platform libraries. At the moment they only receive minor bug fixing and security updates, but should be considered ABI stable and frozen.
 Icon=https://fedoraproject.org/w/uploads/e/e5/Fedora_infinity.png
