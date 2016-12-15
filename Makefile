@@ -1,4 +1,4 @@
-all: platform sdk
+all: platform sdk rsync
 
 clean:
 	rm -rf repo exportrepo .commit-*
@@ -6,6 +6,9 @@ clean:
 PROXY=
 VERSION=rawhide
 ARCH=x86_64
+
+rsync:
+	rsync -ahv --update --progress -r exportrepo/* fedorapeople.org:~/public_html/flatpak/fedora
 
 repo/config:
 	ostree init --repo=repo --mode=bare-user
