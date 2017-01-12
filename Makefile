@@ -1,4 +1,4 @@
-all: platform sdk rsync
+all: init platform sdk rsync
 
 clean:
 	rm -rf repo exportrepo .commit-*
@@ -6,6 +6,9 @@ clean:
 PROXY=
 VERSION=rawhide
 ARCH=x86_64
+
+init:
+	sudo rpm-ostree compose tree --force-nocache --repo=repo flatpak-runtime.json
 
 rsync:
 	rsync -ahv --update --progress -r exportrepo/* fedorapeople.org:~/public_html/flatpak/fedora
